@@ -10,9 +10,9 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR KEY HERE"
-    OWNER_ID = "YOUR ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = "1400655342:AAFo_2PacGIZpOjS7rurRe8skTTo87EuxFE"
+    OWNER_ID = "1143125448"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "Model_Media"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
@@ -25,10 +25,10 @@ class Config(object):
     URL = None
 
     # OPTIONAL
-    DEV_USERS = []
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    DEV_USERS = 1143125448
+    SUDO_USERS = 1143125448  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = 1143125448  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = 1143125448  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     DONATION_LINK = None  # EG, paypal
     CERT_PATH = None
     PORT = 5000
