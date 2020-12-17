@@ -20,18 +20,17 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hi {}, my name is {}!
+Hi {}, my name is Model Group Manager!
 
 You can find the list of available commands with /help.
 """
 
-BOT_IMAGE = "https://telegra.ph/file/93612a540608640355f20.mp4"
+BOT_IMAGE = "https://telegra.ph/Model-Media-12-15-2"
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Hey there! My name is *Model Group Manager*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
-If you have any questions on how to use me, head over to @PhoenixSupport
 
 *Main* commands available:
  - /start: start the bot
@@ -149,8 +148,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add Pɧơɛnıх to your group.",
-                                url="t.me/{}?startgroup=botstart".format(bot.username),
+                                text="Add Model to your group.",
+                                url="t.me/modelgroupmanagerbot?startgroup=botstart".format(bot.username),
                             )
                         ]
                     ]
